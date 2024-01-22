@@ -90,25 +90,7 @@ a {
     color: black;
 }
 
-#instagram {
-    width: 120px;
-    height: 34px;
-    padding: 24px, 0px, 24px, 0px;
-    border-radius: 16px;
-    background-color: #22D4FD;
-    margin-right: 20px;
-}
-
-#linkedin {
-    width: 120px;
-    height: 34px;
-    padding: 24px, 0px, 24px, 0px;
-    border-radius: 16px;
-    background-color: #22D4FD;
-    margin-right: 20px;
-}
-
-#github {
+#instagram, #linkedin, #github {
     width: 120px;
     height: 34px;
     padding: 24px, 0px, 24px, 0px;
@@ -143,4 +125,57 @@ footer {
     text-align: center;
     align-items: center;
     padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    #titulo1 {
+        width: 300px;
+        height: auto;
+        font-size: 14px;
+    }
+
+    main {
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .texto {
+        width: 300px;
+        height: auto;
+        margin: 25px;
+        display: flex;
+    }
+
+    #texto-inicial h1 {
+        font-size: 20px;
+        width: 300px;
+    }
+
+    #texto-inicial p {
+        font-size: 14px;
+        width: 300px;
+    }
+
+    .imagem img {
+        position: relative;
+        top: 300px;
+        height: 450px;
+    }
+
+    footer {
+        position: relative;
+        top: 280px;
+        flex-wrap: wrap;
+        font-size: 14px;
+    }
+    
+    footer a {
+        margin: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
