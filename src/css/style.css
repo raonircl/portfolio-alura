@@ -144,7 +144,7 @@ footer {
 
     .texto {
         width: 300px;
-        height: auto;
+        height: 600px;
         margin: 25px;
         display: flex;
     }
@@ -161,13 +161,13 @@ footer {
 
     .imagem img {
         position: relative;
-        top: 300px;
+        top: 50px;
         height: 450px;
     }
 
     footer {
         position: relative;
-        top: 280px;
+        top: 80px;
         flex-wrap: wrap;
         font-size: 14px;
     }
