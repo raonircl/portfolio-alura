@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom right, rgb(39, 37, 37), rgb(4, 55, 114));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+#titulo1 {
+    border-radius: 25px;
+    margin-top: 50px;
+    padding: 20px;
+    width: 500px;
+    height: auto;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, rgba(3, 54, 54, 0.596), rgb(4, 55, 114));
+}
+
+main {
+    top: 50px;
+    position: relative;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right, rgba(3, 54, 54, 0.596), rgb(4, 55, 114));
+}
+
+.texto {
+    width: 615px;
+    height: 482px;
+    top: 278px;
+    left: 357px;
+    border-radius: 16px;
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin-right: 20px;
+}
+
+#texto-inicial {
+    width: 593px;
+    height: 352px;
+    top: 278px;
+    left: 357px;
+    gap: 40px;
+}
+
+#texto-inicial h1 {
+    width: 593px;
+    height: 168px;
+    font-size: 36px;
+}
+
+#texto-inicial strong {
+    color: aqua;
+}
+
+#texto-inicial p {
+    width: 593px;
+    height: 144px;
+    font-size: 18px;
+    line-height: 36px;
+}
+
+a {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+
+#instagram {
+    width: 120px;
+    height: 34px;
+    padding: 24px, 0px, 24px, 0px;
+    border-radius: 16px;
+    background-color: #22D4FD;
+    margin-right: 20px;
+}
+
+#linkedin {
+    width: 120px;
+    height: 34px;
+    padding: 24px, 0px, 24px, 0px;
+    border-radius: 16px;
+    background-color: #22D4FD;
+    margin-right: 20px;
+}
+
+#github {
+    width: 120px;
+    height: 34px;
+    padding: 24px, 0px, 24px, 0px;
+    border-radius: 16px;
+    background-color: #22D4FD;
+    margin-right: 20px;
+}
+
+.imagem {
+    width: 288px;
+    height: 540px;
+    top: 235px;
+    left: 1030px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.imagem img {
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
+
+footer {
+    top: 80px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
